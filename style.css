@@ -1,0 +1,94 @@
+@font-face {
+    font-family: amsterdam;
+    src: url(./amsterdam_3/Amsterdam.ttf);
+  }
+
+@font-face {
+    font-family: ablation;
+    src: url(./Ablation-Font/Ablation_PersonalUse.otf);
+}  
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /*border: 1px solid black;*/
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.title{
+    height: auto;
+    font-size: 10vw;
+    font-family: amsterdam, cursive;
+    color: #1d1d1d;
+    align-self: center;
+}
+
+.nav-bar{
+    height: 45px;
+    width: 100vw;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.link-container{
+    height: 90%;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    border-top: #5f5f5f 2px solid;
+    border-bottom: #5f5f5f 2px solid;
+}
+
+.link{
+    text-decoration: none;
+    color:#1d1d1d;
+    font-size: 2vw;
+    align-self: center;
+    font-family: ablation;
+}
+
+.link:hover{
+    color: #5f5f5f;
+    cursor: pointer;
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    height: 70vh;
+}
+
+.img-presentation{
+    box-shadow: #1d1d1d 2px 2px 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+   
+}
+
+.copyright-container{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    padding: 5px;
+    /*border-top: 1px #5f5f5f solid;*/
+}
+
+.copyright{
+    font-size: 1vw;
+    color:#5f5f5f;
+}
