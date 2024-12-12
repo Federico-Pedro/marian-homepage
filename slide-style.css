@@ -1,0 +1,64 @@
+/* Estilo básico para la galería */
+figure {
+  margin:0;
+}
+#gallery {
+    max-width: 900px;
+    margin:25px auto; 
+    overflow: hidden;
+    position: relative;
+    height: 500px; /* Ajusta esta altura según sea necesario */
+}
+
+.gallery-container {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Ajusta la altura al 100% del contenedor principal */
+}
+
+.gallery-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ajusta la altura al 100% del contenedor principal */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+	overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%; /* Asegura que las imágenes llenen el contenedor */
+    object-fit: contain; /* Ajusta la imagen para cubrir el contenedor sin distorsión */
+    display: block;
+}
+
+.gallery-item.active {
+    opacity: 1;
+}
+
+/* Navegación de la galería */
+.gallery-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+	margin: 0 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-button {
+    background-color: rgba(0,0,0, .2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.nav-button:hover {
+    background-color: rgba(0,0,0, .4);
+}
