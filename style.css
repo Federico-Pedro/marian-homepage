@@ -6,7 +6,19 @@
 @font-face {
     font-family: ablation;
     src: url(./Ablation-Font/Ablation_PersonalUse.otf);
-}  
+}
+
+@font-face {
+    font-family: kugile;
+    src: url(./kugile/Kugile_Demo.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(./lato/Lato-Regular.ttf);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -87,7 +99,6 @@
     justify-content: center;
     height: 25px;
     padding: 5px;
-    /*border-top: 1px #5f5f5f solid;*/
 }
 
 .copyright{
@@ -118,33 +129,45 @@
 	  width: 30%;
 	  /*padding: 5px;*/
 	  margin: 0 12px 10px 25px;
-	  font-family: ablation; 
+	  font-family: kugile; 
 	  font-size: 16px;
 	  font-weight: 800;
 	  letter-spacing: 1px;
 	  line-height: 1.5rem;
 	  color: #5f5f5f;
 	  text-align: justify;
+      overflow: hidden;
   }
   
   .contact-container{
-	  margin-left: 25px;
-	  display: flex;
+      margin-left: 25px;
+      /*padding: 50px;*/
+      padding-left: 0;
+      display: flex;
 	  flex-direction: column;
-	  font-family: ablation;
-	  font-weight: 800;
-	  font-size: 24px;
-	  line-height: 30px;
+      justify-content: flex-end;
+	  font-family: kugile;
+	  overflow:  hidden;
+	  font-size: 16px;
+	  line-height: 18px;
+      letter-spacing: 1.5px;
+      
   }
-  
+
+  .address{
+    overflow: hidden;
+  }
+   
   .icon-container{
-	  margin-top: 10px;
+	  margin-top: 15px;
+      overflow: hidden;
   }
   
   .icon{
-	  width: 30px;
+	  width: 20px;
 	  height: auto;
 	  margin-right: 10px;
+      overflow: hidden;
   }
   
   @media only screen and (max-width: 768px) {
