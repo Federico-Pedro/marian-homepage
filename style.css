@@ -34,6 +34,15 @@
     overflow: hidden;
 }
 
+.menu{
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    display: none;
+    height: 30px;
+    width: 30x;
+}
+
 .title{
     height: auto;
     font-size: 10vw;
@@ -208,3 +217,36 @@
 	  margin-top: 25px;
 	  
   }
+
+  @media only screen and (max-width: 500px) {
+    .menu{
+        display: block;
+    }
+
+    .nav-bar{
+        display: block;
+        flex-direction: column;
+        justify-items: flex-start;
+        position: fixed;
+        top: 55px;
+        left: 55px;
+        background-color: rgba(255, 255, 255, 0.9);
+        
+        height: auto;
+        width: 200px;
+        line-height: 28px;
+        border-radius: 5px;
+        /*border: #1d1d1d 1px solid;*/
+    }
+
+    .link-container{
+        flex-direction: column;
+        border: 0;
+        height: auto;
+        
+  }
+
+    .link{
+        align-self: flex-start;
+    }
+}
