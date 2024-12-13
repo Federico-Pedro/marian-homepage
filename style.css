@@ -59,6 +59,19 @@
     justify-content: center;
 }
 
+.close{
+	display: none;
+	position: fixed;
+	height: 40px;
+	width: 40px;
+	font-size: 18px;
+	position: absolute;
+	color: #5f5f5f;
+	right: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
 .link-container{
     height: 90%;
     width: 75%;
@@ -67,6 +80,7 @@
     align-self: center;
     border-top: #5f5f5f 2px solid;
     border-bottom: #5f5f5f 2px solid;
+	position: relative;
 }
 
 .link{
@@ -75,6 +89,7 @@
     font-size: 2vw;
     align-self: center;
     font-family: ablation;
+	
 }
 
 .link:hover{
@@ -249,6 +264,7 @@
 
     .link{
         align-self: flex-start;
+		font-weight: 600;
        
     }
 
