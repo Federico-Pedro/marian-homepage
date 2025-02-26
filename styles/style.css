@@ -213,6 +213,9 @@
     height: auto;
 }
 
+
+
+/*media query para tablet*/
 @media only screen and (max-width: 768px) {
     .title {
         font-size: 96px;
@@ -231,8 +234,13 @@
         align-items: center;
     }
 
+    .bio-pic {
+        width: 50vw;
+        height: auto;
+    }
     .marian-pic {
-        width: 90vw;
+        width: 90%;
+        height: auto;
     }
 
     .biography {
@@ -250,6 +258,8 @@
 
 }
 
+
+/*media query para celular*/
 @media only screen and (max-width: 600px) {
     .menu {
         display: block;
@@ -332,9 +342,7 @@
         color: #a8669f;
     }
 
-    .icon,
-    .dark,
-    .menu {
+    .icon, .dark, .menu {
         fill: #a8669f;
         stroke: #a8669f;
     }
