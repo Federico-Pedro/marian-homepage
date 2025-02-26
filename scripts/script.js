@@ -14,7 +14,7 @@ function navigate(direction) {
     
     items[currentIndex].classList.remove('active');
     currentIndex = (currentIndex + direction + totalImages) % totalImages;
-    console.log(currentIndex);
+    //console.log(currentIndex);
     items[currentIndex].classList.add('active');
 }
 

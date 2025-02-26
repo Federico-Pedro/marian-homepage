@@ -300,8 +300,19 @@
     .presentation {
         flex-direction: column;
     }
+    .bio-pic {
+        width: 50vw;
+        height: auto;
+    }
+    .marian-pic {
+        width: 90%;
+        height: auto;
+    }
 }
 
+
+
+/* dark mode */
 .dark-mode {
     background-color: #272727;
 
@@ -322,7 +333,8 @@
     }
 
     .icon,
-    .dark {
+    .dark,
+    .menu {
         fill: #a8669f;
         stroke: #a8669f;
     }
