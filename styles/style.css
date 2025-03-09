@@ -343,7 +343,7 @@
     }
 
     .icon, .dark, .menu {
-        fill: #a8669f;
+        /* fill: #a8669f; */
         stroke: #a8669f;
     }
 
@@ -351,6 +351,6 @@
 
 .dark:hover {
     cursor: pointer;
-    fill: #b970b0;
+    /*fill: #b970b0;*/
     stroke: #b970b0;
 }
