@@ -26,6 +26,7 @@
     /*border: 1px solid red;*/
 }
 
+
 .dark {
     position: fixed;
     top: 20px;
@@ -38,7 +39,7 @@
 .header {
     display: flex;
     justify-content: center;
-    height: 20vh;
+    height: 18vh;
     padding: 20px;
     overflow: hidden;
 }
@@ -113,13 +114,15 @@
     justify-content: center;
     padding: 30px;
     height: 70%;
+    
 }
 
 .img-presentation {
     box-shadow: #1d1d1d 2px 2px 10px;
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 50%;
     border-radius: 5px;
+    margin-top: 25px;
 }
 
 .footer {
