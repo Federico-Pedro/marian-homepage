@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 
 figure {
   margin:0;
@@ -13,6 +17,8 @@ figure {
 
 .gallery-container {
     /*margin-top: 35px;*/
+    display: flex;
+    justify-content: center;
     position: relative;
     width: 100%;
     height: 100%;
@@ -26,12 +32,12 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 95%; /* Ajusta la altura al 95% del contenedor principal */
+    width: 95%;
+    height: 90%; /* Ajusta la altura al 95% del contenedor principal */
     opacity: 0;
     transition: opacity 1s ease-in-out;
 	overflow: hidden;
-    /*border: 1px solid rgb(0, 255, 208);*/
+    border: 1px solid rgb(255, 0, 0);
     padding: 15px;
     /*TODO center image in the carousel*/
 }
