@@ -129,11 +129,12 @@
 
 .footer {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: flex-end;
     width: 100vw;
-    height: 11vh;
+    height: 4vh;
+    box-sizing: border-box;
 }
 
 .copyright-container {
@@ -143,7 +144,7 @@
     justify-content: flex-end;
     align-items: center;
     height: 25px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .copyright {
